@@ -1,20 +1,16 @@
 #include <iostream>
-#include <string>
+// dipakai untuk membuat program yang memerlukan input output
 
-struct Siswa {
-	std::string nama;
-	float nilaiAkhir, nilaiTugas, nilaiUts, nilaiUas;
-    	char grade;
-};
+// using std::cout; // Hanya memanggil cout
+// using std::endl; // Hanya memanggil endl
+// ini juga boleh kita panggil fungsi yang kita butuh aja dalam program tersebut
 
-int main() {
-	Siswa daftarSiswa[59];
-	
-	
-	std::cout << "Masukkan Nama Siswa";
-	std::cin >> daftarSiswa[0].nama ;
-	std::cout << "Masukkan Nilai Tugas";
-	std::cin >> daftarSiswa[0].nilaiTugas ;
-	std::cout << daftarSiswa[0].nama;
-	std::cout << daftarSiswa[0].nilaiTugas;
+int main() { //int disini berarti integer, tapi di sini dia bukan sedang mendeklarasikan tipe data
+	std::cout << "Hello World!" << std::endl;
+	// std, std di sini digunakan untuk memenuhi standar industri.
+	// cout untuk output, dan cin untuk input. sementara endl untuk membuat garis baru
+	// titik koma sangat penting di c++ untuk memberhentikan statement yang ada di c++
+	return 0;
+	// return 0 disini memastikan kalau program berhasil tanpa error, kalau 1 kebalikannya. cuma ini gabisa asal, kita sendiri harus memastikan program bener atau tidak
+
 }
