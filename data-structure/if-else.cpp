@@ -8,8 +8,11 @@ int main(){
     cout << "Masukkan angka: ";
     cin >> angka;
 
-    if(angka == 2){
-        cout << "Anda memasukkan angka 2";
+    if(angka % 2 == 0){
+        cout << "Bilangan genap";
+    }
+    else{
+        cout << "Bilangan ganjil";
     }
 
     return 0;
