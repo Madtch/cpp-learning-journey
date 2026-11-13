@@ -1,3 +1,19 @@
+# Ignore Windows executables & Code Runner temp files
+.vscode/
 *.exe
-main
-program_ku
+*.out
+tempCodeRunnerFile.cpp
+
+# Ignore compiled binaries inside folders, allow .cpp only
+01-basics/*
+!01-basics/*.cpp
+
+02-control-flow/*
+!02-control-flow/*.cpp
+
+03-matkul-struktur-data/*
+!03-matkul-struktur-data/*.cpp
+
+04-mini-projects/**/*
+!04-mini-projects/**/
+!04-mini-projects/**/*.cpp
